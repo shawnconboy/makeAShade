@@ -70,6 +70,12 @@ table {
     margin-right: auto;
 }
 
+thead {
+    background-color: rgb(36, 42, 90);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.242);
+    color: rgb(233, 233, 237)
+}
+
 td {
     padding: 10px 30px;
 }
@@ -86,6 +92,11 @@ th {
 
 tbody tr:nth-child(odd) {
     background-color: #0400ff30;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #00000017;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.20);
 }
 
