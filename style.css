@@ -14,28 +14,34 @@ html {
     flex-direction: column;
 }
 
+
 nav {
-    background-color: rgb(36, 42, 90);
-    padding: 10px 40px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 40px;
     display: flex;
-    /* justify-content: space-between; */
-    justify-content: end;
+    justify-content: space-between;
+    /* justify-content: end; */
     align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
     box-shadow: 0px 0px 5px;
 }
 
-nav>a {
+
+.logoDiv>a>img {
+    width: 125px;
+}
+
+.linksDiv>a {
     padding: 0px 10px;
     text-decoration: none;
-    color: rgb(155, 155, 197);
+    color: rgb(253, 253, 253);
     font-weight: 700;
     transition: .25s;
 }
 
-nav>a:hover {
-    color: azure;
+.linksDiv>a:hover {
+    color: rgb(72, 142, 255);
 }
 
 .container {
@@ -80,7 +86,7 @@ p {
 img {
     width: 250px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.527);
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
     margin: 10px 0px;
 }
