@@ -82,6 +82,13 @@ p {
     margin: 40px 0px;
 }
 
+.bigImage {
+    width: 100%;
+    box-shadow: none;
+    margin: 0;
+    height: auto;
+}
+
 
 img {
     width: 250px;
