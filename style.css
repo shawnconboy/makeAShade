@@ -29,7 +29,8 @@ nav {
 
 
 .logoDiv>a>img {
-    width: 125px;
+    /* width: 125px; */
+    height: auto;
 }
 
 .linksDiv>a {
@@ -61,7 +62,7 @@ h1 {
 h2 {
     text-align: center;
     margin: 3px;
-    color: rgb(93, 84, 16);
+    color: rgb(0, 0, 0);
     font-family: "Arsenal SC", sans-serif;
 }
 
@@ -170,19 +171,20 @@ form {
     display: flex;
     flex-direction: column;
     width: 400px;
-    margin: auto;
-    border-radius: 20px;
+    margin: 20px auto;
+    /* border-radius: 20px; */
     padding: 10px;
-    background-color: rgba(0, 0, 255, 0.113);
+    /* background-color: rgba(0, 0, 255, 0.113); */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
 }
 
 form>label {
     padding: 7px 0px;
+    font-weight: 600;
 }
 
 form>input {
-    border-radius: 20px;
+    background-color: rgb(225, 225, 229);
     padding: 5px 15px;
     border: none;
 }
