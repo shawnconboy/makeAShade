@@ -68,6 +68,17 @@ p {
     margin: 0px 10%;
 }
 
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+img {
+    width: 250px;
+}
+
 /* table data */
 
 table {
