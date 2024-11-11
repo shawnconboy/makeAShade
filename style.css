@@ -87,6 +87,7 @@ p {
     box-shadow: none;
     margin: 0;
     height: auto;
+    padding: 0;
 }
 
 
@@ -102,11 +103,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: black; */
 }
 
-.socialIcons>svg {
+.socialIcons>a>svg {
     height: 40px;
     padding: 10px;
+    color: black;
 }
 
 /* table data */
